@@ -1,0 +1,87 @@
+/* Codah Pedraza
+   9/4/24
+   24/FA ITSE 2302-7PDH2
+   4A Intro To C+ Programming App
+*/
+
+.navlogic{
+   width: 33%;
+   text-align: center;
+}
+
+.navlogiclink{
+   width: 33%;
+   text-align: center;
+   padding-top: 32px;
+}
+
+.dottedline{
+   border-left: 2px dotted black;
+   height: 870px;
+   margin: 20px;
+}
+
+.contents{
+   display: flex;
+   flex-direction: row;
+}
+
+.section{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+
+.customfooter{
+   font-family: "EB Garamond", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: bold;
+   width: 30%;
+   margin: 20px auto;
+   background-color: white;
+   border: 5px solid black;
+   text-align: center;
+   border-radius: 7px;
+   filter: drop-shadow(0 0 0.1rem #444);
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+
+p{
+   font-family: "EB Garamond", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: bold;
+   text-align: center;
+   font-size: 20px;
+}
+
+body{
+   margin: 0;
+   background-color: teal;
+}
+
+header{
+   background-color: black;
+}
+
+nav{
+   font-family: "Black Ops One", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   display: flex;
+   flex-direction: row;
+   height: 70px;
+}
+
+h2{
+   font-family: "Black Ops One", system-ui;
+   font-weight: 400;
+   font-style: bold;
+   text-align: center;
+   padding-top: 10px;
+}
