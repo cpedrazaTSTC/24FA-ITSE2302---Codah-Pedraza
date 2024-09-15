@@ -4,34 +4,40 @@
    4A Intro To C+ Programming App
 */
 
+/* allows for a custom nav bar */
 .navlogic{
    width: 33%;
    text-align: center;
 }
 
+/* allows for a custom nav bar */
 .navlogiclink{
    width: 33%;
    text-align: center;
    padding-top: 32px;
 }
 
+/* creates a dotted line down the middle of index.html */
 .dottedline{
    border-left: 2px dotted black;
    height: 870px;
    margin: 20px;
 }
 
+/* maintains the horizontal layout */
 .contents{
    display: flex;
    flex-direction: row;
 }
 
+/* contains header and page information */
 .section{
    width: 50%;
    display: flex;
    flex-direction: column;
 }
 
+/* allows for a custom footer */
 .customfooter{
    font-family: "EB Garamond", serif;
    font-optical-sizing: auto;
@@ -46,11 +52,13 @@
    filter: drop-shadow(0 0 0.1rem #444);
 }
 
+/* a element configuration */
 a{
    text-decoration: none;
    color: white;
 }
 
+/* p element configuration */
 p{
    font-family: "EB Garamond", serif;
    font-optical-sizing: auto;
@@ -60,15 +68,18 @@ p{
    font-size: 20px;
 }
 
+/* body element configuration */
 body{
    margin: 0;
    background-color: teal;
 }
 
+/* header element configuration */
 header{
    background-color: black;
 }
 
+/* nav element configuration */
 nav{
    font-family: "Black Ops One", system-ui;
    font-weight: 400;
@@ -78,6 +89,7 @@ nav{
    height: 70px;
 }
 
+/* h2 element configuration */
 h2{
    font-family: "Black Ops One", system-ui;
    font-weight: 400;
