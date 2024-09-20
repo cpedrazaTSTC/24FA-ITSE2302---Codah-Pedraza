@@ -11,7 +11,7 @@ var lname = "Pedraza";
 // Assigns the variable "stringname" to my custom string of choice
 var stringname = "Welcome to my website!";
 // Allows a certain value to be considered true/false (used in booleans)
-let x = false
+let x = false;
 // Assigns the variable "theTruth" to a boolean
 var theTruth = Boolean(x);
 // Assigns the variable "value1" to the number "10"

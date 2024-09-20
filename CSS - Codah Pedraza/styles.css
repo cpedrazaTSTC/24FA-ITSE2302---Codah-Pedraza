@@ -30,11 +30,29 @@
    flex-direction: row;
 }
 
+/* adds custom elements to my images on index.html */
+.container{
+   align-items: center;
+   justify-content: center;
+   max-width: 100%;
+}
+
 /* contains header and page information */
 .section{
    width: 50%;
    display: flex;
    flex-direction: column;
+}
+
+/* subsection into a class */
+.section div .container{
+   text-align: center;
+
+}
+
+/* subsection into a class into an element (img) */
+.section div .container img{
+   width: 75%;
 }
 
 /* allows for a custom footer */
