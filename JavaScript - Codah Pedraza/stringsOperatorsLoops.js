@@ -26,7 +26,7 @@ var s1num2Parsed = parseInt(s1num2);
 var s1num3Parsed = parseInt(s1num3);
 var s2num1Parsed = parseInt(s2num1);
 var s2num2Parsed = parseInt(s2num2);
-var s2num3Parsed = parseInt(s2num3);
+var s2num3Parsed = parseInt(s2num3Array);
 
 // Parsed numbers all add together to create a sum
 var sumTotal = (s1num1Parsed + s1num2Parsed + s1num3Parsed + s2num1Parsed + s2num2Parsed + s2num3Parsed);
