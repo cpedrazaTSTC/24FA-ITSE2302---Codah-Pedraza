@@ -1,33 +1,104 @@
 /* Codah Pedraza
-   9/4/24
+   10/3/24
    24/FA ITSE 2302-7PDH2
    4A Intro To C+ Programming App
 */
 
-/* allows for a custom nav bar */
-.navlogic{
-   width: 33%;
-   text-align: center;
+@media (orientation: landscape){
+   /* maintains the horizontal layout when applied */
+   .contents{
+      display: flex;
+      flex-direction: row;
+   }
+   /* contains header and page information */
+   .section{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+   }
+   /* creates a space for the images under the two paragraphs */
+   .section-paragraph{
+      height: 300px;
+   }
+   /* creates a dotted line down the middle of index.html */
+   .dottedline{
+      border-left: 2px dotted black;
+      height: 870px;
+      margin: 20px;
+   }
+   /* to center the main h1 tag in landscape mode */
+   h1{
+      padding-left: 35px;
+   }
+   /* since landscape has the centered dotted line, hr will be invisible during landscape mode */
+   hr{
+      display: none;
+   }
+   /* nav element configuration */
+   nav{
+      font-family: "Black Ops One", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      display: flex;
+      flex-direction: row;
+      height: 70px;
+   }
+   /* allows for a custom nav bar */
+   .navlogic{
+      width: 33%;
+      text-align: center;
+   }
+   /* allows for a custom nav bar */
+   .navlogiclink{
+      width: 33%;
+      text-align: center;
+      padding-top: 32px;
+   }
 }
 
-/* allows for a custom nav bar */
-.navlogiclink{
-   width: 33%;
-   text-align: center;
-   padding-top: 32px;
-}
-
-/* creates a dotted line down the middle of index.html */
-.dottedline{
-   border-left: 2px dotted black;
-   height: 870px;
-   margin: 20px;
-}
-
-/* maintains the horizontal layout */
-.contents{
-   display: flex;
-   flex-direction: row;
+@media (orientation: portrait){
+   /* maintains a vertical layout when applied */
+   .contents{
+      display: flex;
+      flex-direction: column;
+   }
+   /* contains header and page information */
+   .section{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 25px;
+   }
+   .section-contents{
+      width: 100%;
+   }
+   /* creates a dotted line down the middle of index.html */
+   .dottedline{
+      display: none;
+   }
+   /* custom horizontal line for portrait mode (same as landscape) */
+   hr{
+      border-color:black;
+      border-style: dotted;
+      width: 100%;
+   }
+   /* nav element configuration */
+   nav{
+      font-family: "Black Ops One", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   /* allows for a custom nav bar */
+   .navlogic{
+      text-align: center;
+   }
+   /* allows for a custom nav bar */
+   .navlogiclink{
+      text-align: center;
+      margin: 25px 0;
+   }
 }
 
 /* adds custom elements to my images on index.html */
@@ -35,13 +106,6 @@
    align-items: center;
    justify-content: center;
    max-width: 100%;
-}
-
-/* contains header and page information */
-.section{
-   width: 50%;
-   display: flex;
-   flex-direction: column;
 }
 
 /* subsection into a class */
@@ -95,16 +159,6 @@ body{
 /* header element configuration */
 header{
    background-color: black;
-}
-
-/* nav element configuration */
-nav{
-   font-family: "Black Ops One", system-ui;
-   font-weight: 400;
-   font-style: normal;
-   display: flex;
-   flex-direction: row;
-   height: 70px;
 }
 
 /* h2 element configuration */
