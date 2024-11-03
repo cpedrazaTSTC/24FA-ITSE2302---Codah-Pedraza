@@ -1,0 +1,102 @@
+<!-- Codah Pedraza
+   11/2/24
+   24/FA ITSE 2302-7PDH2
+   4A Intro To C+ Programming App
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- char. setting -->
+        <meta charset="UTF-8"/>
+        <!-- description -->
+        <meta name="description" content="Intro"/>
+        <!-- functionality -->
+        <meta name="viewport" content="width-device, initial-scale=1.0"/>
+        <!-- website name -->
+        <title>Contact Us</title>
+        <script src="JavaScript - Codah Pedraza/formValidation.js"></script>
+
+		<!-- premade connections e.g. fonts and other files -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS - Codah Pedraza/styles.css">
+    </head>
+
+    <body>
+		<header>
+			<!-- custom nav bar -->
+			<nav>
+				<div class="navlogiclink">
+				</div>
+				<div style="padding-top: 20px;" class="navlogic">
+					<a style="font-size: 1.5em; padding-left: 35px; font-weight: bold;" href="index.html">Return Home</a>
+				</div>
+				<div class="navlogiclink">
+				</div>
+			</nav>
+		</header>
+
+        <main>
+            <!-- form (+ id) -->
+			<form id="mainform">
+            
+            <!-- label --><br>
+            <label for="questions">Below, feel free to ask two questions.</label><br>
+            <!-- text inputs -->
+            <input type="text" id="firstquestion" name="fquestion" placeholder="Question 1...">
+            <br>
+            <input type="text" id="secondquestion" name="squestion" placeholder="Question 2...">
+
+            <br><br>
+
+            <!-- radio buttons/inputs -->
+            <label for="trivia">Trivia (not functional)</label><br>
+            
+            <div class="alignment1">
+                <input type="radio" id="sophomore" name="trivia" value="sophomore">
+                <label for="sophomore">Sophomore</label><br>
+                <input type="radio" id="goodgrades" name="trivia" value="goodgrades">
+                <label for="goodgrades">Straight A's</label>
+            </div>
+
+            <br><br>
+
+            <!-- checkboxes -->
+            <label for="purchaseoptions">Select your purchase options:</label><br>
+
+            <div class="alignment2">
+                <input type="checkbox" id="1-year college plan" name="purchaseoptions" value="$1,000">
+                <label for="1-year college plan">1-Year College Plan ($1,000)</label><br>
+                <input type="checkbox" id="2-year college plan" name="purchaseoptions" value="$2,000">
+                <label for="2-year college plan">2-Year College Plan ($2,000)</label><br>
+                <input type="checkbox" id="3-year college plan" name="purchaseoptions" value="$3,000">
+                <label for="3-year college plan">3-Year College Plan ($3,000)</label>
+            </div>
+
+            <br><br>
+
+            <!-- drop-down menus -->
+            <label for="colleges">College choices:</label><br>
+            <select id="colleges" name="college choices">
+                <option value="harvard">Harvard University</option>
+                <option value="princeton">Princeton University</option>
+            </select>
+
+            <br><br>
+
+            <!-- text area -->
+            <label for="message">Enter a message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Start typing..."></textarea><br><br>
+
+            <br><br><br><br><br>
+
+            <!-- reset/submit buttons -->
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>
