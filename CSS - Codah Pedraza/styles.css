@@ -10,30 +10,36 @@
       display: flex;
       flex-direction: row;
    }
+
    /* contains header and page information */
    .section{
       width: 50%;
       display: flex;
       flex-direction: column;
    }
+
    /* creates a space for the images under the two paragraphs */
    .section-paragraph{
       height: 300px;
    }
-   /* creates a dotted line down the middle of index.html */
+
+   /* dotted line functionality */
    .dottedline{
       border-left: 2px dotted black;
       height: 870px;
       margin: 20px;
    }
+
    /* to center the main h1 tag in landscape mode */
    h1{
       padding-left: 35px;
    }
+
    /* since landscape has the centered dotted line, hr will be invisible during landscape mode */
    hr{
       display: none;
    }
+
    /* nav element configuration */
    nav{
       font-family: "Black Ops One", system-ui;
@@ -43,11 +49,13 @@
       flex-direction: row;
       height: 70px;
    }
+
    /* allows for a custom nav bar */
    .navlogic{
       width: 33%;
       text-align: center;
    }
+
    /* allows for a custom nav bar */
    .navlogiclink{
       width: 33%;
@@ -62,25 +70,31 @@
       display: flex;
       flex-direction: column;
    }
+
    /* contains header and page information */
    .section{
       display: flex;
       flex-direction: column;
       margin-bottom: 25px;
    }
+
+   /* maximizes the page for sections */
    .section-contents{
       width: 100%;
    }
-   /* creates a dotted line down the middle of index.html */
+
+   /* dotted line functionality */
    .dottedline{
       display: none;
    }
+   
    /* custom horizontal line for portrait mode (same as landscape) */
    hr{
       border-color:black;
       border-style: dotted;
       width: 100%;
    }
+
    /* nav element configuration */
    nav{
       font-family: "Black Ops One", system-ui;
@@ -90,16 +104,20 @@
       flex-direction: column;
       justify-content: center;
    }
+
    /* allows for a custom nav bar */
    .navlogic{
       text-align: center;
    }
+
    /* allows for a custom nav bar */
    .navlogiclink{
       text-align: center;
       margin: 25px 0;
    }
 }
+
+/* =========================================================== */
 
 /* adds custom elements to my images on index.html */
 .container{
@@ -134,10 +152,84 @@
    filter: drop-shadow(0 0 0.1rem #444);
 }
 
+/* aligns inputs */
+.alignment1{
+   text-align: center;
+}
+
+/* aligns inputs */
+.alignment2{
+   text-align: center;
+}
+
+/* =========================================================== */
+
+/* configurations for the mainform id */
+#mainform{
+   width: 100vw;
+   height: 100vh;
+   display: grid;
+   text-align: center;
+   justify-content: center;
+}
+
+#firstquestion{
+   font-family: "Black Ops One", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+
+#secondquestion{
+   font-family: "Black Ops One", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+
+/* applied font for the colleges id */
+#colleges{
+   font-family: "Black Ops One", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+}
+
+#message{
+   font-family: "Black Ops One", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+
+/* =========================================================== */
+
+/* form element configuration */
+form{
+   font-family: "Black Ops One", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+
+/* button element configuration */
+button{
+   font-family: "Black Ops One", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+
 /* a element configuration */
 a{
    text-decoration: none;
    color: white;
+}
+
+/* header element configuration */
+header{
+   background-color: black;
+}
+
+/* body element configuration */
+body{
+   margin: 0;
+   background-color: teal;
 }
 
 /* p element configuration */
@@ -148,17 +240,6 @@ p{
    font-style: bold;
    text-align: center;
    font-size: 20px;
-}
-
-/* body element configuration */
-body{
-   margin: 0;
-   background-color: teal;
-}
-
-/* header element configuration */
-header{
-   background-color: black;
 }
 
 /* h2 element configuration */
